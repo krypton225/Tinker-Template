@@ -1,0 +1,142 @@
+.blog-content {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("../images/blog-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+.left-one,
+.right-one {
+  float: left;
+  height: 100%;
+}
+
+.blog-content .left-one {
+  width: 35%;
+  background-color: rgba(0, 0, 0, 0.404);
+  padding: 55px 20px 33px 20px;
+}
+
+.blog-content .right-one {
+  width: 65%;
+}
+
+.left-one .blog-title {
+  color: var(--white-color);
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.left-one .line {
+  margin-bottom: 30px;
+}
+
+.left-one p {
+  width: 82.5%;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--white-color);
+  line-height: 24px;
+  margin-bottom: 50px;
+}
+
+.left-one .list-btns {
+  list-style: none;
+}
+
+.left-one .list-btns li {
+  width: 80%;
+  background-color: var(--white-color);
+  padding: 10px;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.left-one .list-btns li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 15px;
+  color: black;
+}
+
+.left-one .list-btns li a:hover,
+.left-one .list-btns li a.active {
+  color: var(--second-yellow);
+}
+
+/* .right-one .item {
+  width: 500px;
+  height: 420px;
+  margin: 40px;
+  margin-top: 25%;
+  border-radius: 15px;
+  background-color: var(--white-color);
+  position: relative;
+}
+
+.right-one .item .bg-img {
+  width: 500px;
+  height: 250px;
+}
+
+.right-one .item .bg-img img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+} */
+
+.right-one .item {
+  width: 100%;
+  height: 100%;
+  margin-top: 30%;
+  position: relative;
+}
+
+.right-one .item-content {
+  width: 550px;
+  background-color: var(--white-color);
+  text-align: start;
+}
+
+.right-one .item-content .bg-img {
+  width: 100%;
+  height: 50%;
+}
+
+.right-one .item-content .bg-img img {
+  width: 100%;
+}
+
+.right-one .item-content .item-info {
+  padding: 20px;
+}
+
+.right-one .item-content .item-info .item-title {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.right-one .item-content .item-info span a {
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.right-one .item-content .item-info span a,
+.slash {
+  color: var(--light-blue);
+}
+
+.right-one .item-content .item-info p {
+  width: 100%;
+  color: #7c7c7c;
+  font-size: 13px;
+}

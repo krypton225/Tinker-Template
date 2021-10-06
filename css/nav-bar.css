@@ -1,0 +1,72 @@
+.nav-bar {
+  width: 100%;
+  height: 60px;
+  /* position: fixed; */
+}
+
+.logo {
+  width: 40%;
+}
+
+.links {
+  width: 60%;
+}
+
+.logo,
+.links {
+  float: left;
+}
+
+.logo span {
+  text-transform: uppercase;
+  font-family: "Open Sans Condensed";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.logo .t-alph {
+  font-size: 40px;
+  color: var(--t-alph-color);
+}
+
+.logo .inker {
+  color: var(--white-color);
+  letter-spacing: 1.2px;
+  font-size: 30px;
+  margin-left: -5px;
+}
+
+.links {
+  list-style: none;
+}
+
+.links li {
+  display: inline-block;
+  padding: 23px;
+  text-align: center;
+}
+
+.links li > a {
+  color: var(--white-color);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+}
+
+.links li > a::after {
+  width: 0;
+  height: 3px;
+  content: "";
+  display: block;
+  border-radius: 15px;
+  background-color: var(--yellow-color);
+  transition: width 0.5s;
+}
+
+.links li > a:hover::after {
+  width: 100%;
+}

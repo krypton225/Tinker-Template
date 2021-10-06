@@ -1,0 +1,34 @@
+.contact-us {
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  background-color: #596065;
+  color: var(--white-color);
+  font-family: "Roboto";
+  font-style: normal;
+  position: relative;
+}
+
+.contnet {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.contact-us .title {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.contact-us .contnet .line {
+  margin: 20px 0;
+}
+
+.contact-us .contnet p {
+  margin: 25px 0;
+}
+
+.send-msg {
+  width: 200px;
+  height: 45px;
+}

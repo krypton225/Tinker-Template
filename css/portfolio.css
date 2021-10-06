@@ -1,0 +1,61 @@
+.portfolio {
+  width: 100%;
+  height: 85vh;
+  position: relative;
+  background-color: var(--second-yellow);
+  font-family: "Roboto";
+}
+
+.portfolio .hero-img .my-quote {
+  background-color: var(--white-color);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.portfolio .hero-img .my-quote p {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 17px;
+  color: #9a9a9a;
+}
+
+.portfolio .hero-img .info {
+  margin: 30px 0;
+}
+
+.dev-name,
+.name-job {
+  color: var(--white-color);
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  margin-top: 7px;
+}
+
+.dev-name {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.name-job {
+  font-size: 14px;
+  font-weight: 300;
+  display: block;
+}
+
+.bullets li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.bullets li div {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #fbe2a8;
+  cursor: pointer;
+}
+
+.bullets li div.active-bullet {
+  background-color: var(--white-color);
+}
